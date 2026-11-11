@@ -24,24 +24,37 @@
             <h1>Gerenciamento de livros</h1>
             <form action="">
                 <div>
-                    <label for="">Título *<input type="text" placeholder="Infome o Título"></label>
+                    <label for="">Título *<input type="text" placeholder="Infome o Título" required></label>
                 </div>
                 <div>
-                    <label for="">Autor *<input type="text" placeholder="Informe o autor"></label>
+                    <label for="">Autor *<input type="text" placeholder="Informe o autor" required></label>
                 </div>
                 <div>
-                    <label for="">Preço (R$) *<input type="text" placeholder="0.00"></label>
-                    <label for="">Quantidade em estoque * *<input type="text" placeholder="0"></label>
+                    <label for="">Preço (R$) *<input type="text" value="0.00" placeholder="0.00" required></label>
+                    <label for="">Quantidade em estoque * *<input type="text" value="0" placeholder="0"
+                            required></label>
                     <button type="submit">Cadastrar Livro</button>
                 </div>
                 <p>Area para mensagens de sucesso ou erro</p>
             </form>
         </section>
         <section id="Catalogo" class="Catalogo">
-            <form action=""><input type="text" placeholder="Busca por parte do Título"></form>
+            <form action="">
+                <input type="text" placeholder="Busca por parte do Título">
+                <button type="submit">Buscar</button>
+                <button type="reset">Limpar</button>
+            </form>
+            <table>
+                <tr>
+                    <th></th>
+                </tr>
+            </table>
+            <tr>
+                <td></td>
+            </tr>
         </section>
     </main>
-    <script src="Script.js"></script>
-</body>
 
+</body>
+    <script src="Script.js"></script>
 </html>
