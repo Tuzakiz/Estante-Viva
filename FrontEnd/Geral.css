@@ -1,20 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-header
-nav {
-    outline: 2.1 solid black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 120px;
+}
+
+header nav {
+    border: 2px solid #777;
     align-items: center;
-    padding: 5% 5%;
+    padding: 50px 50px;
     box-sizing: border-box;
     position: fixed;
-    height: 10%;
+    height: 50px;
     width: 100%;
-    gap: 35px;
+
     display: flex;
     justify-content: space-between;
     background-color: rgb(221, 221, 221);
+    margin-bottom: 50px;
 }
 
 body {
     font-family: 'Inter Tight', sans-serif;
+    padding: 20px;
+}
+
+
+nav h1 {
+    font-size: 30px;
+}
+
+.NavDiv a {
+    font-size: 16px;
 }
